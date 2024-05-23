@@ -1,0 +1,55 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.org{
+    color: #ff7240;
+}
+
+.rg-auto{
+    margin-left: auto;
+}
+.left-auto{
+    margin-right: 200px;
+}
+.nv-link-bottom{
+    border-bottom: 3px solid #ff7240;
+    
+}
+.neworg
+{
+    color: #923e21;
+}
+main{
+    margin-top: 42px;   
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    -webkit-box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 5px 21px 0px rgba(0,0,0,0.16);
+
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+@media (max-width: 484px)
+{
+    .name-h{
+        font-size: 24px;
+        text-align: center;
+    }
+    .mt{
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+}
+

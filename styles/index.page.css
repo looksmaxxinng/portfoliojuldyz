@@ -1,0 +1,44 @@
+
+
+.contact-link{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 4px;
+}
+.face-img{
+
+    max-width: 300px;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .flex-center {
+        flex-direction: column-reverse;
+    }
+    
+    .left-auto {
+        margin-right: 0;
+    }
+    .face-img{
+        max-width: 250px;
+    }
+    .tel{
+        margin-left: auto;
+    }
+    .name {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .face {
+        margin-bottom: 20px;
+    }
+    .contact-link{
+        font-size: 14px;
+    }
+}
